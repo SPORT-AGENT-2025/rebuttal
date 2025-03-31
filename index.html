@@ -33,7 +33,7 @@
 <body>
 
     <h1>ICML Paper 5743 Rebuttal</h1>
-    <h3>Table A: Comparisons with existing search schemes</h3>
+    <h2>Table A: Comparisons with existing search schemes</h2>
 
     <table>
         <thead>
@@ -102,7 +102,38 @@
         </tbody>
     </table>
 
-    <h3>References</h3>
+
+    <h2>Table B: Performance with variance on the GTA benchmark.</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Method</th>
+                <th>Controller</th>
+                <th>AnsAcc</th>
+                <th>ToolAcc</th>
+                <th>CodeExec</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>MAT</td>
+                <td>Tuned Qwen2-VL-7B</td>
+                <td>53.85</td>
+                <td>64.63</td>
+                <td>84.32</td>
+            </tr>
+            <tr>
+                <td>SPORT Agent (Ours)</td>
+                <td>Tuned Qwen2-VL-7B</td>
+                <td>60.26 ± 1.51</td>
+                <td>72.41 ± 1.11</td>
+                <td>91.87 ± 1.41</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>References of Table A</h3>
     <ol>
         [1] WEBRL: TRAINING LLM WEB AGENTS VIA SELF-EVOLVING ONLINE CURRICULUM REINFORCEMENT LEARNING. ICLR 2025.<br>
         [2] Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents.<br>
